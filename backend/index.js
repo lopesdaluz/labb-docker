@@ -1,10 +1,12 @@
+// nodemon
+
 const express = require("express"),
   path = require("path");
 
 const app = express();
 
 app.get("/api", (_request, response) => {
-  response.send({ hello: "World" });
+  response.send({ hello: "WORLD" });
 });
 
 app.use(express.static(path.join(path.resolve(), "public")));
