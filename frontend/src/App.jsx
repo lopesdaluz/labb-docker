@@ -16,7 +16,7 @@ function App() {
 
   return (
     <Container>
-      <h1>Lopes Da luz</h1>
+      <h1>Family Lopes Da luz</h1>
       <DataTable>
         <thead>
           <tr>
